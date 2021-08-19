@@ -4,14 +4,14 @@
                    font-family: "Open Sans";
                    src: url("../fonts/OpenSans-Regular.woff"), url("../fonts/OpenSans-Regular.woff2");
                    font-weight: 400;
-                   font-style: normal;
+                   
                }
 
                @font-face {
                    font-family: "Open Sans";
                    src: url("../fonts/OpenSans-Bold.woff"), url("../fonts/OpenSans-Bold.woff2");
                    font-weight: 700;
-                   font-style: bold;
+                   
                }
 
                * {
@@ -20,8 +20,11 @@
                    border: 0;
                    box-sizing: border-box;
                }
-
+               html, body {
+                   overflow-x: hidden;
+               }
                body {
+                   position: relative;
                    font-family: "Open Sans", "Arial", sans-serif;
                    font-weight: normal;
                    font-size: 15px;
@@ -368,7 +371,7 @@
                }
 
                .article-author {
-                   display: inlain-block;
+                   display: inline-block;
                    margin-left: 8px;
                    font-size: 12px;
                    font-weight: bold;
@@ -438,14 +441,14 @@
 
                .search {
                    display: flex;
-               }
+                   width: 270px;
 
-               .search-line {
-                   width: 220px;
                }
-
+               .search label {
+                   flex-grow: 1;
+               }
+               
                .search-button {
-                   width: 50px;
                    background-image: url("../svg/search.svg");
                    background-position: center;
                    background-size: 20px 20px;
@@ -508,7 +511,8 @@
                }
 
                .number-of-posts {
-                   font-size: 12;
+                   font-size: 12px;
+                   vertical-align: super;
                }
 
                /*-------------------------Section Shope----------------------*/

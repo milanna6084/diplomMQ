@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-
+<html lang="ru">
 <head>
-  <meta charset="UTF-8" lang="ru">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Диплом по адаптивной верстке</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
   <header class="header blackout">
     <div class="header-content">
       <div class="header-top-content">
         <a href="/" class="logo">
-          <img src="svg/noemi-logo.svg">
+          <img src="svg/noemi-logo.svg" alt="логотип">
         </a>
         <nav class="menu">
           <button class="menu-button">
@@ -136,7 +136,7 @@
               </a>
             </h2>
             <div class="article-meta">
-              <time class="article-date">10 июня 2019</time>
+              <span class="article-date">10 июня 2019</span>
               <span class="article-author">Неизвестный автор</span>
             </div>
             <div class="article-text">
@@ -168,7 +168,7 @@
               </a>
             </h2>
             <div class="article-meta">
-              <time class="article-date">10 июня 2019</time>
+              <span class="article-date">10 июня 2019</span>
               <span class="article-author">Неизвестный автор</span>
             </div>
             <div class="article-text">
@@ -196,7 +196,7 @@
               </a>
             </h2>
             <div class="article-meta">
-              <time class="article-date">10 июня 2019</time>
+              <span class="article-date">10 июня 2019</span>
               <span class="article-author">Неизвестный автор</span>
             </div>
             <div class="article-text">
@@ -229,7 +229,7 @@
               </a>
             </h2>
             <div class="article-meta">
-              <time class="article-date">10 июня 2019</time>
+              <span class="article-date">10 июня 2019</span>
               <span class="article-author">Неизвестный автор</span>
             </div>
             <div class="article-text">
@@ -263,7 +263,7 @@
               </a>
             </h2>
             <div class="article-meta">
-              <time class="article-date">10 июня 2019</time>
+              <span class="article-date">10 июня 2019</span>
               <span class="article-author">Неизвестный автор</span>
             </div>
             <div class="article-text">
@@ -288,7 +288,7 @@
               <img src="img/2.jpg" alt="Утро на пляже">
             </div>
             <div class="preview-article-content">
-              <time class="article-date preview-article-date ">14 июня 2019</time>
+              <span class="article-date preview-article-date ">14 июня 2019</span>
               <h3 class="preview-article-title">
                 <a class="header-link" href="#0">
                   10 мест, ради которых стоит проснуться
@@ -302,7 +302,7 @@
               <img src="img/151.jpg" alt="Йога на пляже">
             </div>
             <div class="preview-article-content">
-              <time class="article-date preview-article-date ">14 июня 2019</time>
+              <span class="article-date preview-article-date ">14 июня 2019</span>
               <h3 class="preview-article-title">
                 <a class="header-link" href="#0">
                   Йога для домашних
@@ -316,7 +316,7 @@
               <img src="img/45.jpg" alt="Интерьер с креслом">
             </div>
             <div class="preview-article-content">
-              <time class="article-date preview-article-date ">10 июня 2019</time>
+              <span class="article-date preview-article-date ">10 июня 2019</span>
               <h3 class="preview-article-title">
                 <a class="header-link" href="#0">
                   Как мы превратили классное место в балкон
@@ -330,7 +330,7 @@
               <img src="img/501.jpg" alt="Обеденный стол">
             </div>
             <div class="preview-article-content">
-              <time class="article-date preview-article-date ">10 июня 2019</time>
+              <span class="article-date preview-article-date ">10 июня 2019</span>
               <h3 class="preview-article-title">
                 <a class="header-link" href="#0">
                   Кулинарный подход к науке
@@ -344,7 +344,7 @@
               <img src="img/7.jpg" alt="Три девушки с распущенными волосами">
             </div>
             <div class="preview-article-content">
-              <time class="article-date preview-article-date ">10 июня 2019</time>
+              <span class="article-date preview-article-date ">10 июня 2019</span>
               <h3 class="preview-article-title">
                 <a class="header-link" href="#0">
                   Лучшие прически для распущенных волос
@@ -358,10 +358,10 @@
         <!--Search and emailing forms-->
         <section class="aside-section">
           <form class="search">
-            <label>
+             <label>
               <input class=" input search-line" type="search" placeholder="Найти..." required>
               <span class="visually-hidden">Введите Ваш запрос в строку поиска</span>
-            </label>
+             </label>
             <button class=" button search-button" type="submit">
               <span class="visually-hidden">Нажмите кнопку для поиска введенного Вами запроса</span>
             </button>
@@ -373,13 +373,14 @@
             Рассылка
           </h3>
           <form class="mailing">
-            <label>
+            
               <input class="input email" type="email" placeholder="Ваш email-адрес" required>
               <span class="visually-hidden">Введите Ваш e-mail адрес</span>
-            </label>
+            
             <button class=" button subscribe-button" type="submit">
               ПОДПИСАТЬСЯ
             </button>
+           
           </form>
         </section>
 
@@ -424,27 +425,27 @@
           <ul class="categories">
             <li class="categories-item">
               <a class="categories-link" href="#0">Красота</a>
-              <sup class="number-of-posts">12</sup>
+              <span class="number-of-posts">12</span>
             </li>
             <li class="categories-item">
               <a class="categories-link" href="#0">Здоровье</a>
-              <sup class="number-of-posts">8</sup>
+              <span class="number-of-posts">8</span>
             </li>
             <li class="categories-item">
               <a class="categories-link" href="#0">Образ жизни</a>
-              <sup class="number-of-posts">145</sup>
+              <span class="number-of-posts">145</span>
             </li>
             <li class="categories-item">
               <a class="categories-link" href="#0">Музыка</a>
-              <sup class="number-of-posts">28</sup>
+              <span class="number-of-posts">28</span>
             </li>
             <li class="categories-item">
               <a class="categories-link" href="#0">Спорт</a>
-              <sup class="number-of-posts">62</sup>
+              <span class="number-of-posts">62</span>
             </li>
             <li class="categories-item">
               <a class="categories-link" href="#0">Йога</a>
-              <sup class="number-of-posts">8</sup>
+              <span class="number-of-posts">8</span>
             </li>
           </ul>
         </section>
@@ -474,8 +475,8 @@
             </p>
             <div class="price-content">
               <div class="shop-item-price">
-                <span class="old-price">1000 &#x20BD </span>
-                <span class="new-price">800 &#x20BD </span>
+                <span class="old-price">1000 &#x20BD;</span>
+                <span class="new-price">800 &#x20BD;</span>
               </div>
               <a class="shop-button button">В магазин</a>
             </div>
@@ -501,7 +502,7 @@
             </p>
             <div class="price-content">
               <div class="shop-item-price">
-                <span class="new-price">3500 &#x20BD </span>
+                <span class="new-price">3500 &#x20BD;</span>
               </div>
               <a class="shop-button button">В магазин</a>
             </div>
@@ -526,13 +527,14 @@
             </p>
             <div class="price-content">
               <div class="shop-item-price">
-                <span class="old-price">500 &#x20BD </span>
-                <span class="new-price">400 &#x20BD </span>
+                <span class="old-price">500 &#x20BD;</span>
+                <span class="new-price">400 &#x20BD;</span>
               </div>
               <a class="shop-button button">В магазин</a>
             </div>
           </div>
         </li>
+      </ul>
     </section>
 
   </div>
@@ -593,7 +595,7 @@
         Ваш фидбек
       </h2>
       <form class="popup-form">
-        <label class="popup-form-item">
+        <div class="popup-form-item">
           <span class="form-question">Как часто вы заходите на сайт?</span>
           <select class="input select">
             <option>Почти каждый день</option>
@@ -601,23 +603,23 @@
             <option>Раз в несколько недель</option>
             <option>Несколько раз в год</option>
           </select>
-        </label>
+        </div>
 
-        <label class="popup-form-item">
+        <div class="popup-form-item">
           <span class="form-question">Вы подписаны на e-mail рассылку?</span>
           <input class="radio" type="radio" name="radio" value="Yes"><span>Да</span>
           <input class="radio" type="radio" name="radio" value="No"><span>Нет</span>
-        </label>
+        </div>
 
-        <label class="popup-form-item">
+        <div class="popup-form-item">
           <span class="form-question">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
           <textarea class="input textarea" placeholder="Может, больше рецептов?"></textarea>
-        </label>
+        </div>
 
-        <label class="popup-form-item">
+        <div class="popup-form-item">
           <button class="button popup-button" type="submit">Отправить</button>
           <span class="visually-hidden">Нажмите, чтобы отправить Выши данные</span>
-        </label>
+        </div>
       </form>
     </div>
   </section>
